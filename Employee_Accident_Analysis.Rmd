@@ -1,25 +1,44 @@
 ---
-title: "Employee_Accident_Analysis"
+title: "Employee Accident Analysis"
+author: "David Lopez"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+For our Employee Accident Analysis we'll break the project into a couple of parts
+ 
+ Part 1: Import & Inspect our data
+  - loading our data into our working environment
+  - load necessary packages for project
+  - check quality of data (nulls/errors/duplicates etc.)
+  
+  
+ Part 2: Clean & Transform our data
+  - Rename/remove columns & filter any data not needed
+  - Create/Recode columns needed for analysis
+  - Joins, if needed
+  
+ Part 3: Data Analysis
+  - Basic EDA Q's we'll want to answer
+    - when do we see the most accidents happening? 
+    - what roles tend to have more accident than others? 
+    - do we see any factors that might lead to these accidents? 
+ 
+====================================================================================================
+
+
+```{r}
+
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+```{r}
 
-```{r cars}
-summary(cars)
 ```
 
 ## Including Plots
 
-You can also embed plots, for example:
+
 
 ```{r pressure, echo=FALSE}
 plot(pressure)

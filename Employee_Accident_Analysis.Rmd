@@ -20,7 +20,7 @@ For our Employee Accident Analysis we'll break the project into a couple of part
  Part 3: Data Analysis
   - Basic EDA Q's we'll want to answer
     - when do we see the most accidents happening? 
-    - what roles tend to have more accident than others? 
+    - what roles, and in which locations, tend to have more accident than others? 
     - do we see any factors that might lead to these accidents? 
  
 ====================================================================================================
